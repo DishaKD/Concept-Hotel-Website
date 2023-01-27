@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <meta charset="utf-8" />  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <head>
+    <link rel="stylesheet" href="style.css" /> <!--Link to CSS-->     
+  <!--Title Name & Title Icon-->
+  <title>Lagoon</title>
+    <link rel="icon" href="Lagoon\Resources\Icons\favicon.ico"type="image/icon type"/>
+  </head>
+  <!--Header-->
+  <header>
+    <!--Header Main Logo-->
+    <div class="header">
+      <div class="logo">
+        <img class="main_image" src="Lagoon\Resources\Lagoon.png" alt="Main Logo"/>
+      </div>
+      <body>        
+        <!--Top Navigation Bar-->
+        <div  class="navigation_bar">
+          <ul class="top_navigation">
+            <li><a href="index.html" class="home">HOME</a></li> <!--Redirect to Home Page-->
+            <li><a href="#accommodation">ACCOMMODATION</a></li> <!--Redirect to Accommodation Page-->
+            <li><a href="#reserve">RESERVATION</a></li> <!--Redirect to Reservation Page-->
+            <li><a href="#gallery">GALLERY</a></li> <!--Redirect to Gallery Page-->
+            <li><a href="#contact-us">CONTACT US</a></li> <!--Redirect to Contact Us Page-->
+            <!--Sign In & Sign Up Buttons-->            
+            <ul class="login_button">
+              <li><a class="sign_in" href="#">SIGN IN</a></li> <!--Redirect to Sign In Page-->
+              <li><a class="sign_up" href="#">SIGN UP</a></li> <!--Redirect to Sign Up Page-->
+            </ul>
+          </ul>
+        </div>
+    </div>
+  </header> <!--End Header-->
+  <!--Home Page-->
+  <section class="homepage">
+    <!--Home Page Main Image-->
+    <img class="background"src="Lagoon\Resources\bgimage.jpg" alt="Background_Image"/> 
+    <!--Assign Button "Enjoy!" to explorer webpage-->
+    <a href="#accommodation" id="mainbtn">Enjoy!</a> 
+    <!--Text on the Main Image-->
+    <h2 id="home_text1"><span>With</span></h2> 
+    <!--Text on the Main Image--> 
+    <h2 id="home_text2"><span>Excitement</span></h2> 
+  </section> 
+  <!--Home Page End-->
+ 
+<!--Accommodation Page-->
+<!--Link to Navigation Bar Accommodation Button-->
+<a name="accommodation"></a> 
+<section class="accomodation">
+  <!--Accommodation Page Title-->
+  <section class="accomotitle">
+    <!--Text Style is Sliced (Top Text)-->
+    <div class="acotop">ACCOMMODATION</div>
+    <!--Text Style is Sliced (Bottom Text) --> 
+    <div class="acobottom" aria-hidden="true">ACCOMMODATION</div> 
+  </section>
+
+
+<!--Room Details Tabs-->
+<div class="tabset">
+  <!-- Turtle's Shell Tab  -->
+  <input type="radio" name="tabset" id="tab1" aria-controls="TurtleShell" checked>
+  <label for="tab1">Turtle's Shell</label>
+  <!-- Whale Pod Tab  -->
+  <input type="radio" name="tabset" id="tab2" aria-controls="WhalePod">
+  <label for="tab2">Whale Pod</label>
+  <!-- Coral Crib Tab  -->
+  <input type="radio" name="tabset" id="tab3" aria-controls="CoralCrib">
+  <label for="tab3">Coral Crib</label>
+  <!--Tab Contents-->
+  <div class="tab-panels">
+    <!--Turtle's Shell Tab Content-->
+    <section id="TurtleShell" class="tab-panel">
+      <h2>Turtle's Shell</h2>
+      <!--Turtle's Shell Room Tour Video-->
+      <video class="turtle_shell-video" autoplay muted loop >
+        <source src="Lagoon\Resources\Videos\Turtle's Shell.mp4" type="video/mp4">
+      </video>      
+      <!--Add Room Main Features Highlighted Panel-->
+      <div class="room-highlights-block">
+        <div class="room-highlights-inner"><div>
+          <span class="icon"><img src="Lagoon/Resources/SVG/home-svgrepo-com%20(1).svg" alt=""></span> 
+          <span class="caption">100 sq.m.</span> 
+        </div>
+        <div>
+          <span class="icon"><img src="Lagoon/Resources/SVG/people-svgrepo-com.svg" alt=""></span> 
+          <span class="caption">2 Adults</span> 
+        </div>
+        <div>
+          <span class="icon"><img src="Lagoon/Resources/SVG/binoculars-binocular-magnifying-glass-svgrepo-com.svg" alt=""></span>
+          <span class="caption">Sea Lagoon View</span> 
+        </div>
+        <div>
+          <span class="icon"><img src="Lagoon/Resources/SVG/bathtub-bath-svgrepo-com.svg" alt=""></span>
+          <span class="caption">Luxury Shower</span> 
+        </div>
+        <div>
+          <span class="icon"><img src="Lagoon/Resources/SVG/pool-swimming-sport-game-play-ball-svgrepo-com.svg" alt=""></span> 
+          <span class="caption">Private Pool</span> 
+        </div>
+      </div>
+  </div> 
+  <!--Room Features-->
+  <div class="box1">
+    <p>FEATURES AND AMENITIES</p> 
+  </div>  
+  <div class="room-feature1"> 
+    <ul>
+      <li class="p1">Individual Air Conditioning Units</li>
+      <li class="p1">Ceiling Fans</li>
+      <li class="p1">Electric Power (220V-240V)</li>
+      <li class="p1">Free Wi-Fi</li>
+      <li class="p1">Bottled Water</li>
+      <li class="p1">LCD TV with Satellite Channels</li>
+      <li class="p1">DVD Player</li><li>Hair Dryer</li>
+      <li>Bathrobe</li>
+      <li>Two Pairs of Slippers</li>
+      <li>Umbrella</li>
+      <li>Iron and Ironing Board</li>
+      <li class="p1">Telephone with IDD Facilities</li>
+      <li class="p1">Hot and Cold Water</li>
+      <li class="p1">Mini Bar with Glassware</li>
+      <li class="p1">Electric Shaver Socket</li>
+      <li class="p1">Tea/Coffee Making Facilities</li>
+      <li class="p1">Safety Locker</li>
+      <li class="p1">Private Balcony</li>
+      <li class="p1">DVD Library (On Request)</li>
+      <li class="p1">Baby Cots (On Request)</li>
+    </ul>             
+  </div> 
+  </section>
+  <!--End of Turtle's Shell Tab Content-->
+
+  <!--Whale Pod Tab Content-->
+  <section id="WhalePod" class="tab-panel">
+    <h2>Whale Pod</h2>
+    <!--Whale Pod Room Tour Video-->
+    <video class="whale_pod-video" autoplay muted loop>
+      <source src="Lagoon\Resources\Videos\Whale Pod.mp4" type="video/mp4">
+    </video>
+    <!--Add Room Main Features Highlighted Panel-->
+    <div class="room-highlights-block">
+      <div class="room-highlights-inner"><div>
+        <span class="icon"><img src="Lagoon/Resources/SVG/home-svgrepo-com%20(1).svg" alt=""></span>
+        <span class="caption">90 sq.m.</span>
+      </div>
+      <div>
+        <span class="icon"><img src="Lagoon/Resources/SVG/people-svgrepo-com.svg" alt=""></span> 
+        <span class="caption">2 Adults</span> 
+      </div>
+      <div>
+        <span class="icon"><img src="Lagoon/Resources/SVG/binoculars-binocular-magnifying-glass-svgrepo-com.svg" alt=""></span>
+        <span class="caption">Sea Lagoon View</span> 
+      </div>
+      <div>
+        <span class="icon"><img src="Lagoon/Resources/SVG/bathtub-bath-svgrepo-com.svg" alt=""></span>
+        <span class="caption">Luxury Shower</span> 
+      </div>
+      <div>
+        <span class="icon"><img src="Lagoon/Resources/SVG/pool-swimming-sport-game-play-ball-svgrepo-com.svg" alt=""></span> 
+        <span class="caption">Private Pool</span> 
+      </div>
+    </div>
+  </div>  
+  <!--Room Features-->
+  <div class="box2">
+    <p>FEATURES AND AMENITIES</p>
+  </div>
+  <div class="room-feature2">
+    <ul>
+      <li class="p1">Individual Air Conditioning Units</li>
+      <li class="p1">Ceiling Fans</li>
+      <li class="p1">Electric Power (220V-240V)</li>
+      <li class="p1">Free Wi-Fi</li>
+      <li class="p1">Bottled Water</li>
+      <li class="p1">LCD TV with Satellite Channels</li>
+      <li class="p1">DVD Player</li><li>Hair Dryer</li>
+      <li>Bathrobe</li>
+      <li>Two Pairs of Slippers</li>
+      <li>Umbrella</li>
+      <li>Iron and Ironing Board</li>
+      <li class="p1">Telephone with IDD Facilities</li>
+      <li class="p1">Hot and Cold Water</li>
+      <li class="p1">Mini Bar with Glassware</li>
+      <li class="p1">Electric Shaver Socket</li>
+      <li class="p1">Tea/Coffee Making Facilities</li>
+      <li class="p1">Safety Locker</li>
+      <li class="p1">Private Balcony</li>
+      <li class="p1">DVD Library (On Request)</li>
+      <li class="p1">Baby Cots (On Request)</li>
+    </ul>             
+  </div>
+</section>
+  <!--End of Whale Pod Tab Content-->
+
+  <!--Coral Crib Tab Content-->
+  <section id="CoralCrib" class="tab-panel">
+    <h2>Coral Crib</h2>
+    <!--Coral Crib Room Tour Video-->
+    <video class="coral_crib-video" autoplay muted loop>
+      <source src="Lagoon\Resources\Videos\Coral Crib.mp4" type="video/mp4">
+    </video>
+    <!--Add Room Main Features Highlighted Panel-->
+    <div class="room-highlights-block">
+      <div class="room-highlights-inner"><div>
+        <span class="icon"><img src="Lagoon/Resources/SVG/home-svgrepo-com%20(1).svg" alt=""></span>
+        <span class="caption">64 sq.m.</span>
+      </div>
+      <div>
+        <span class="icon"><img src="Lagoon/Resources/SVG/people-svgrepo-com.svg" alt=""></span>
+        <span class="caption">2 Adults</span>
+      </div>
+      <div>
+        <span class="icon"><img src="Lagoon/Resources/SVG/binoculars-binocular-magnifying-glass-svgrepo-com.svg" alt=""></span>
+        <span class="caption">Coconut Cult View</span>
+      </div>
+      <div>
+        <span class="icon"><img src="Lagoon/Resources/SVG/bathtub-bath-svgrepo-com.svg" alt=""></span>
+        <span class="caption">Luxury Rain Shower</span>
+      </div>
+      <div>
+        <span class="icon"><img src="Lagoon/Resources/SVG/pool-swimming-sport-game-play-ball-svgrepo-com.svg" alt=""></span>
+        <span class="caption">Private Pool</span>
+      </div>
+    </div>
+      <!--Room Features-->
+      <div class="box3">
+        <p>FEATURES AND AMENITIES</p>
+      </div>
+      <div class="room-feature3">
+          <ul>
+          <li class="p1">Individual Air Conditioning Units</li>
+          <li class="p1">Ceiling Fans</li>
+          <li class="p1">Electric Power (220V-240V)</li>
+          <li class="p1">Free Wi-Fi</li>
+          <li class="p1">Bottled Water</li>
+          <li class="p1">LCD TV with Satellite Channels</li>
+          <li class="p1">DVD Player</li><li>Hair Dryer</li>
+          <li>Bathrobe</li>
+          <li>Two Pairs of Slippers</li>
+          <li>Umbrella</li>
+          <li>Iron and Ironing Board</li>
+          <li class="p1">Telephone with IDD Facilities</li>
+          <li class="p1">Hot and Cold Water</li>
+          <li class="p1">Mini Bar with Glassware</li>
+          <li class="p1">Electric Shaver Socket</li>
+          <li class="p1">Tea/Coffee Making Facilities</li>
+          <li class="p1">Safety Locker</li>
+          <li class="p1">Private Balcony</li>
+          <li class="p1">DVD Library (On Request)</li>
+          <li class="p1">Baby Cots (On Request)</li>
+        </ul>             
+      </div>               
+    </div>
+  </div>
+</div>
+</section>
+<!--End of Coral Crib Tab Content-->
+</div>  
+</div>
+<!--End of Room Details Tab-->
+<!--Add short paragraph-->
+<p class="paragraph">*Conditions Apply </p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--End of Accommodation Page-->
+
+<!--Reservation Page-->
+<a name="reserve"></a>
+<section class="reserve">
+  <!--Reservation Page Title-->
+  <div class="reservetitle">RESERVATION</div>  
+<!--Background Image of the page-->
+<div class="backgroundimg">
+  <img class="resbackground" src="Lagoon\Resources\sea.jpg" alt="Sea-Wave" >
+</div>
+
+<!--Added Form to Check Users Room Availability-->
+<div class="availability-form">
+  <form class="form-inline" action="action_page.php">
+    <div>
+      <!--Room Type-->
+      <label class="a-label" for="roomtype">Select Room Type</label>
+      <select class="a-input" id="roomtype" name="room-type">
+        <option>Select Best Choice</option>
+        <option>Turtle's Shell</option>
+        <option>Whale Pod</option>
+        <option>Coral Crib</option>
+      </select>
+    </div>
+
+    <div>
+      <!--Date of Check In-->
+      <label class="a-label" for="checkin">Check In</label>
+      <input class="a-input" type="date" id="checkin" name="check-in">
+    </div>
+
+    <div>
+      <!--Date of Check Out-->
+      <label class="a-label" for="checkout">Check Out</label>
+      <input  class="a-input" type="date" id="checkout" name="check-out">
+    </div>
+
+    <div>
+      <!--Number of Rooms-->
+      <label class="a-label"  for="rooms">Rooms</label>
+      <select  class="a-input" id="room" name="room">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+      </select>     
+    </div>
+
+     <div>
+      <!--Number Of Adults-->
+      <label class="a-label"  for="adults">Adults</label>
+      <select  class="a-input" id="adults" name="adults">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+      </select>     
+    </div>
+      <div>
+        <!--Number of Children-->
+      <label class="a-label"  for="children">Children</label>
+      <select  class="a-input" id="children" name="children">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+      </select>     
+    </div>
+    <!--Add Button to Submit Users Favor-->  
+    <button type="submit">Check Availability</button>
+  </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--End of Reservation Page-->
+
+<!--Gallery Page-->
+<a name="gallery"></a>
+<!--Title of Gallery Page-->
+<h1 class="gallery-title">Gallery</h1>
+<!--Start Gallery Grid-->
+<div class="gallery">
+  <a href="" target="_blank" class="gallery__link">
+    <!--1st Column-->
+    <div class="gallery__column">
+      <figure class="gallery__thumb">
+        <img src="Lagoon\Resources\Gallery Grid\1.jpg" alt="Gallery Grid" class="gallery__image">
+        <figcaption class="gallery__caption">Sun Set View</figcaption>
+      </figure>
+	</a>
+    <a href="" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="Lagoon\Resources\Gallery Grid\2.jpg" alt="Gallery Grid" class="gallery__image">
+				<figcaption class="gallery__caption">Shot From Eagle Eye</figcaption>
+			</figure>
+		</a>
+    <a href="" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="Lagoon\Resources\Gallery Grid\3.jpg" alt="Gallery Grid" class="gallery__image">
+				<figcaption class="gallery__caption">Saddle With Wind</figcaption>
+			</figure>
+		</a>
+	</div>
+	<!--2nd Column-->
+	<div class="gallery__column">
+    <a href="" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="Lagoon\Resources\Gallery Grid\4.jpg" alt="Gallery Grid" class="gallery__image">
+				<figcaption class="gallery__caption">Waves and Sun Set</figcaption>
+			</figure>
+		</a>
+		<a href="" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="Lagoon\Resources\Gallery Grid\5.jpg" alt="Gallery Grid" class="gallery__image">
+				<figcaption class="gallery__caption">Coral Crib Interior</figcaption>
+			</figure>
+		</a>
+    <a href="" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="Lagoon\Resources\Gallery Grid\6.jpg" alt="Gallery Grid" class="gallery__image">
+				<figcaption class="gallery__caption">Private Pool Area</figcaption>
+			</figure>
+		</a>
+	</div>
+	<!--3rd Column-->
+	<div class="gallery__column">
+    <a href="" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="Lagoon\Resources\Gallery Grid\7.jpg" alt="Gallery Grid" class="gallery__image">
+				<figcaption class="gallery__caption">Whale Pod Room Interior</figcaption>
+			</figure>
+		</a>
+	  <a href="" target="_blank" class="gallery__link">	
+			<figure class="gallery__thumb">
+				<img src="Lagoon\Resources\Gallery Grid\8.jpg" alt="Gallery Grid" class="gallery__image">
+				<figcaption class="gallery__caption">European Breakfast</figcaption>
+			</figure>
+		</a>
+    <a href="" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="Lagoon\Resources\Gallery Grid\9.jpg" alt="Gallery Grid" class="gallery__image">
+				<figcaption class="gallery__caption">Private Pool Area </figcaption>
+			</figure>
+		</a>
+      <a href="" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="Lagoon\Resources\Gallery Grid\9(1).jpg" alt="Gallery Grid" class="gallery__image">
+				<figcaption class="gallery__caption">Sun Bath Sittings </figcaption>
+			</figure>
+		</a>
+	</div>
+	<!--4th Column-->
+	<div class="gallery__column">
+    <a href="" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="Lagoon\Resources\Gallery Grid\10.jpg" alt="Gallery Grid" class="gallery__image">
+				<figcaption class="gallery__caption">Turtle's Shell Room Interior</figcaption>
+			</figure>
+		</a>
+    <a href="" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="Lagoon\Resources\Gallery Grid\11.jpg" alt="Gallery Grid" class="gallery__image">
+				<figcaption class="gallery__caption">Latin American Lunch</figcaption>
+			</figure>
+		</a>
+	  <a href="" target="_blank" class="gallery__link">	
+			<figure class="gallery__thumb">
+				<img src="Lagoon\Resources\Gallery Grid\12.jpg" alt="Gallery Grid" class="gallery__image">
+				<figcaption class="gallery__caption">Wine Punch</figcaption>
+			</figure>
+		</a>
+     <a href="" target="_blank" class="gallery__link">	
+			<figure class="gallery__thumb">
+				<img src="Lagoon\Resources\Gallery Grid\13.jpg" alt="Gallery Grid" class="gallery__image">
+				<figcaption class="gallery__caption">Indian Style Rice & Roast Chicken</figcaption>
+			</figure>
+		</a>
+	</div>
+</div>
+<br>
+<!--End of Gallery Page-->
+
+<!--Contact Us Page-->
+<a name="contact-us"></a>
+<h1 class="contact-us-title">Contact Us</h1>
+
+<img class="contact-us-img-bg" src="Lagoon\Resources\contact-us-bg.jpg" alt="contact-us-background">
+
+
+<div class="contact-form">
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>  
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<script src="script.js"></script>
+</body>
+</html>
