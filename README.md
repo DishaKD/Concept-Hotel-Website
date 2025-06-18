@@ -23,17 +23,8 @@ The project was developed as part of a learning journey to enhance front-end dev
 
 ## 📸 Screenshots
 
-![Homepage](screenshots/homepage.png)
-![Rooms Section](screenshots/rooms.png)
-![Contact Section](screenshots/contact.png)
+![Homepage](Lagoon/Lagoon/Resources/Lagoon-Home.png)
+
 
 > Replace the paths in `screenshots/...` with your actual image paths or URLs if hosted elsewhere.
 
-## 🛠️ Setup
-
-No build tools required. Just open the `index.html` file in your browser.
-
-```bash
-git clone https://github.com/your-username/lagoon.git
-cd lagoon
-open index.html
