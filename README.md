@@ -1,4 +1,11 @@
-Lagoon – Hotel Frontend UI
+<h1>
+  <div  align="center">
+  <a  href="https://github.com/DishaKD/Concept-Hotel-Website">
+      <img  src="https://github.com/DishaKD/Concept-Hotel-Website/blob/master/Lagoon/Lagoon/Resources/Lagoon.png"  alt="Logo" >
+  </a>
+</h1>
+<p align=center>Hotel Frontend UI</p>
+<br>
 
 Lagoon is a basic front-end project developed for a fictional hotel website. It was built to practice **HTML**, **CSS**, and **JavaScript** fundamentals and showcase UI/UX design skills.
 
