@@ -1,4 +1,4 @@
-# 🌊 Lagoon – Hotel Frontend UI
+Lagoon – Hotel Frontend UI
 
 Lagoon is a basic front-end project developed for a fictional hotel website. It was built to practice **HTML**, **CSS**, and **JavaScript** fundamentals and showcase UI/UX design skills.
 
@@ -26,5 +26,5 @@ The project was developed as part of a learning journey to enhance front-end dev
 ![Homepage](Lagoon/Lagoon/Resources/Lagoon-Home.png)
 
 
-> Replace the paths in `screenshots/...` with your actual image paths or URLs if hosted elsewhere.
+
 
