@@ -1,7 +1,7 @@
 <h1>
   <div align="center">
     <a href="https://github.com/DishaKD/Concept-Hotel-Website">
-      <img src="https://github.com/DishaKD/Concept-Hotel-Website/blob/master/Lagoon/Lagoon/Resources/Lagoon.png" alt="Lagoon Hotel UI" width="600" height="auto">
+      <img src="https://github.com/DishaKD/Concept-Hotel-Website/blob/master/Lagoon/Lagoon/Resources/Lagoon.png" alt="Lagoon Hotel UI" width="100" height="auto">
     </a>
   </div>
 </h1>
